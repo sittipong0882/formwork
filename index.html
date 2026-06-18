@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ฟอร์มสมัครงาน</title>
+</head>
+<body>
+    <h1>ฟอร์มสมัครงาน</h1>
+
+    <form action="work" method="post">
+        <!--ข้อความ-->
+        ชื่อ:<input type="text" required> <br>
+        นามสกุล:<input type="text" required> <br>
+
+        <!--อีเมล-->
+        อีเมล:<input type="email"> <br>
+
+        <!-- password -->
+        รหัสผ่านเข้าสู่ระบบ:<input type="password"> <br>
+
+        <!-- radio -->
+        เพศ:
+        <input type="radio" name="gender"> ชาย 
+        <input type="radio" name="gender"> หญิง 
+        <input type="radio" name="gender"> ไม่ระบุ <br>
+
+        <!--select-->
+        ระดับการศึกษา:
+        <select>
+            <option>ม.4</option>
+            <option>ม.5</option>
+            <option>ม.6</option>
+        </select> <br>
+
+        <!-- checkbox -->
+        <input type="checkbox"> ยอมรับเงื่อนไขเพื่อติดคุก <br>
+        <input type="checkbox"> ยอมรับเงื่อนไขเพื่อไปนรก <br>
+
+        <!-- submit -->
+        <input type="submit" value="ส่งข้อมูล">
+    </form>
+</body>
+</html>
